@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CringCring - A Cycle rent Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+
+                <h4 style="color:aliceblue;"> <i class="fa fa-bicycle"></i> CringCring</h4>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">FACILITIES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <div class="nav-head">
+                        <li><a href="" class="hero-btn">Sign-Up</a></li>
+                        <li><a href="" class="hero-btn">Sign-In</a></li>
+                    </div>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>"TWO WHEELS,<br>TWO PEDALS, AND A<br>WHOLE LOT OF HAPPINESS."</h1>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+
+    </section>
+
+    <!--Feature-->
+
+    <section class="feature">
+        <h1>Our features</h1>
+        <p>We designed a website to be used as a means of lending a bike to someone and borrowing a bike from someone.We
+            designed a website to be used as a means of lending a bike to someone and borrowing a bike from someone.
+        </p>
+
+        <div class="row">
+            <div class="feature-col">
+                <h3>Take Rent</h3>
+                <p>There are many of us who do not own bicycles. But want to ride a bike.Through this website, people
+                    can take rent a cycle.There are many of us who do not own bicycles. But want to ride a bike.Through
+                    this website, people can take rent a cycle.</p>
+
+            </div>
+            <div class="feature-col">
+                <h3>Give Rent</h3>
+                <p>There are also many people who have unused bicycles at home. We can lend them to someone. Through
+                    this website, people can give rent a cycle.There are also many people who have unused bicycles at
+                    home. We can lend them to someone. Through this website, people can give rent a cycle.</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!---Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We offer to take rent and also give rent a cycle.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/road.jpg">
+                <h3>Road Bikes</h3>
+                <p>Designed for speed on paved roads, these bikes have lightweight frames, narrow tires, and dropped
+                    handlebars. They are popular among commuters and enthusiasts who prioritize speed and efficiency.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/hybrid.jpg">
+                <h3>Hybrid Bikes</h3>
+                <p>Combining features of road and mountain bikes, hybrids offer versatility for both paved and unpaved
+                    surfaces. They have medium-width tires, comfortable seating positions, and moderate suspension,
+                    making them suitable for city commuting and light off-road use.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/electric.jpg">
+                <h3>Electric Bikes</h3>
+                <p>Equipped with an electric motor to assist with pedaling, e-bikes are gaining popularity in urban
+                    areas for reducing the effort needed to navigate long distances or hilly terrains. They are seen as
+                    an eco-friendly alternative to motorbikes and cars.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/folding.jpg">
+                <h3>Folding Bikes</h3>
+                <p>Designed for easy storage and portability, folding bikes are compact and can be folded into a smaller
+                    size. They are ideal for city dwellers who need to combine cycling with public transportation or
+                    have limited storage space.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/fixed.jpg">
+                <h3>Fixed Gear/Single Speed Bikes</h3>
+                <p>Simple bikes with a single gear, known for their minimalistic design and ease of maintenance. They
+                    are popular among urban cyclists who prefer a straightforward and reliable bike.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---Call to action-->
+
+    <section class="cta">
+        <h1>Start Pedaling Towards Your Dream</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+    <!----Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We will allow people to track any cycle in Savar. Thus anyone will be able to reduce time waste. Besides,
+            others can give cycles for rent to others to do business.<br>So, people can use cycles as a day life vehicle
+            and utilize the unused one.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Swarnaly Sarker</p>
+    </section>
+
+
+
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
